@@ -1,4 +1,4 @@
-{% set version = "0.3-1" %}
+{% set version = "0.3-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/emdist_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/emdist/emdist_{{ version }}.tar.gz
-  sha256: 389f886db3604789d867e8ed61d36c4961373f24965ec484036ddaf4d3ba24fc
+  sha256: d09a7b22e280466366838f18cab3acb82d12d6a42bfa3f13ae6095506137bb16
 
 build:
   merge_build_host: true  # [win]
-  number: 1002
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
