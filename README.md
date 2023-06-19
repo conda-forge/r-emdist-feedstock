@@ -1,11 +1,11 @@
-About r-emdist
-==============
+About r-emdist-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emdist-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.rforge.net/emd
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-emdist-feedstock/blob/main/LICENSE.txt)
 
 Summary: Package providing calculation of Earth Mover's Distance (EMD).
 
